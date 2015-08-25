@@ -1,0 +1,9 @@
+Demos
+
+First demo - Problems with branches
+- Have BranchProblem db linked to main
+-  - Users table has one structure.
+- In Git, switch to branch
+  - Users table has new structure.
+-- Incompatible. Show with SOC.
+

@@ -1,9 +1,46 @@
 Demos
 
+
+Demo - Branch Setup SVN
+ - show db and SVN repo browser
+ - code checked out in working folder.
+ - branch from Explorer, SVN menu to new feature branch for contacts changes
+ - create db (cdb)
+ - link db to new branch.
+ - create new table for contacts (branchdemo1)
+
+Branch - Git
+ - check BranchingGitTrunk
+ - 
+
+
+Branch - migrations
+- show master branch (3 scripts)
+- create ArticleSchedule branch
+- switch, add 2 scripts
+- switch to master
+- create FeedFeature branch
+- add new script
+- show scripts
+
+
+
+Demo - Merging Table Schema Changes
+ - go back to SVN
+ - change blogs table in master, add field for subtitle ( 100)
+ - change blogs table in branch, subtitle (80) and field blogdesc (1000)
+ - merge
+
+
+
+
 First demo - Problems with branches
 - Have BranchProblem db linked to main
 -  - Users table has one structure.
 - In Git, switch to branch
   - Users table has new structure.
 -- Incompatible. Show with SOC.
+
+
+
 

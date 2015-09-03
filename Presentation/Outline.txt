@@ -11,7 +11,10 @@ Demo - Branch Setup SVN
 
 Branch - Git
  - check BranchingGitTrunk
- - 
+ - make branch for Article schedules
+ - switch branch to articleSchedules
+ - create new objects
+ - switch back
 
 
 Branch - migrations
@@ -29,18 +32,13 @@ Demo - Merging Table Schema Changes
  - go back to SVN
  - change blogs table in master, add field for subtitle ( 100)
  - change blogs table in branch, subtitle (80) and field blogdesc (1000)
- - merge
+ - merge in SVN
 
 
-
-
-First demo - Problems with branches
-- Have BranchProblem db linked to main
--  - Users table has one structure.
-- In Git, switch to branch
-  - Users table has new structure.
--- Incompatible. Show with SOC.
-
+Demo - Stored procedure changes
+ - Create new database, linked to branch
+ - create conflicting edits in procedure (9, 10)
+ - Show conflict resoluion in SOC / KDiff3
 
 
 
